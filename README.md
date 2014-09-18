@@ -23,7 +23,7 @@ And now you can enjoy phpunit tests :)
 phpunit -c app/
 ```
 And you can also check all carts ( basic restful service ) routes:
-```php app/console router:debug | grep car```
+```php app/console router:debug | grep cart```
 
 You can test 'cart' restful api, with postman:
 ```
