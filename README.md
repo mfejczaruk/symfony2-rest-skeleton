@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/m-fejczaruk/symfony2-rest-skeleton.svg?branch=master)](https://travis-ci.org/m-fejczaruk/symfony2-rest-skeleton) 
 Symfony2 Rest Skeleton
 ========================
 This is skeleton for building rest applications in Symfony2. Also one restful service is included.
