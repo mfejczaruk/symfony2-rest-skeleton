@@ -4,6 +4,7 @@ parameters:
     database_port:     ~
     database_name:     symfony
     database_name_test: symfony_test
+    database_user_test: travis
     database_user:     root
     database_password: ~
 

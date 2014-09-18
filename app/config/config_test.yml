@@ -18,3 +18,4 @@ swiftmailer:
 doctrine:
     dbal:
         dbname:   "%database_name_test%"
+        user:     "%database_user_test%"
