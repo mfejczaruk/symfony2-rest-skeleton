@@ -10,3 +10,7 @@ curl -sS https://getcomposer.org/installer | php
 ```
 If you've composer installed
 
+```
+php composer.phar create-project m-fejczaruk/symfony2-rest-skeleton rest-example
+cd rest-example
+php app/console doctrine:migrations:execute
