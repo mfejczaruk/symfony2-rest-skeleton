@@ -2,7 +2,7 @@
 /**
  * Created by PhpStorm.
  * User: atom
- * Date: 9/13/14
+ * Date: 13/9/14
  * Time: 5:15 PM
  */
 
@@ -19,8 +19,8 @@ class LoadCartData extends AbstractFixture
 
     function load(ObjectManager $manager)
     {
-        for($i=0;$i<10;$i++) {
-            $manager->persist( $this->createCart('cart#'.$i) );
+        for($i=0; $i<10; $i++) {
+            $manager->persist( $this->createCart('cart#' . $i) );
         }
         $manager->flush();
     }
@@ -29,7 +29,7 @@ class LoadCartData extends AbstractFixture
     {
         $cart = new Cart();
         $cart->setName($name);
-        $cart->setDescription('This is '.$cart);
+        $cart->setDescription('This is ' . $cart);
 
         return $cart;
     }
